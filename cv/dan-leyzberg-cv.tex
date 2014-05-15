@@ -1,0 +1,251 @@
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2010 Jason R. Blevins
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Fonts
+\usepackage[T1]{fontenc}
+%\usepackage[urw-garamond]{mathdesign}
+
+% Set your name here
+\def\name{Dan Leyzberg}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {computer science, robotics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\bigskip
+
+\begin{minipage}[t]{0.5\textwidth}
+  \textit{Mailing Address:} \\
+  420 Temple St., Apt. 501\\
+  New Haven, CT 06511
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  \textit{Phone:} (732) 642-8550 \\
+  \textit{E-mail:} dan.leyzberg@yale.edu \\
+  \textit{Homepage:} \href{http://www.danleyzberg.com}{danleyzberg.com}
+\end{minipage}
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. Computer Science, Yale University, 2014. \textbf{(Expected)}
+    \begin{itemize}
+    \item \textit{Dissertation:}
+      Assessing Individual Learning Differences for Robot Tutors
+    \item \textit{Committee:}
+      Brian Scassellati, Dana Angluin,
+      Drew McDermott, and Andrea Thomaz. \textbf{(In Progress)}
+    \end{itemize}
+  \item M.S. Computer Science, Yale University, 2009,
+  \item B.S. Computer Science and Mathematics (Dual), \textit{Summa Cum Laude},
+    \begin{itemize}
+    \item Rensselaer Polytechnic Institute, 2007.
+    \end{itemize}
+\end{itemize}
+
+\section*{Teaching Experience}
+
+\subsection*{Hamden Hall Country Day School}
+\begin{itemize}
+\item AP Computer Science. Teacher. 2008-2009, 2009-2010, 2010-2011, 2011-2012.
+\item Computer Science Principles. Teacher. 2009-2010, 2010-2011, 2011-2012, 2012-2013.
+\\ \\ {\it Responsible for course content, syllabus, lectures, homework, tests, and grading.}
+\end{itemize}
+
+\subsection*{Hamden Hall Country Day School Summer Academy}
+\begin{itemize}
+\item Introduction to Robotics. Teacher. Summer 2011, Summer 2012.
+\\ \\ {\it Responsible for course content, syllabus, and lectures.}
+\end{itemize}
+
+\subsection*{Yale University}
+\begin{itemize}
+\item Introduction to Programming, Fall 2010. Teaching Assistant for \href{http://cs-www.cs.yale.edu/homes/dvm/}{Prof. Drew McDermott}.
+\item Introduction to Computer Science, Spring 2010. Teaching Assistant for \href{http://graphics.cs.yale.edu/holly/}{Prof. Holly Rushmeier}.
+\item Artificial Intelligence, Fall 2009. Teaching Assistant for Prof. \href{http://cs-www.cs.yale.edu/homes/scaz/}{Brian Scassellati}.
+\\ \\ {\it Responsible for office hours, grading, and review sessions.}
+\end{itemize}
+
+\subsection*{Rensselaer Polytechnic Institute}
+\begin{itemize}
+\item Data Structures \& Algorithms, Spring 2006. Teaching Assistant for \href{http://www.cs.rpi.edu/~magdon/}{Prof. Malik Magdon-Ismail}.
+\\ \\ {\it Responsible for one-on-one office hours.}
+\end{itemize}
+
+\section*{Research Experience}
+
+\subsection*{Yale University, Department of Computer Science}
+\begin{itemize}
+\item Research Assistant, Fall 2007--Present. \\
+\textbf{Advisor:} \href{http://http://cs-www.cs.yale.edu/homes/scaz/}{Prof. Brian Scassellati}. \\
+Member of the Social Robotics Lab.
+\end{itemize}
+
+\subsection*{Rensselaer Polytechnic Institute, Department of Computer Science}
+\begin{itemize}
+\item Undergraduate Research Assistant, Fall 2005--Spring 2007. \\
+\textbf{Advisors:} \href{http://www.cs.rpi.edu/~goldberg/}{Prof. Mark Goldberg}, \href{http://www.cs.rpi.edu/~magdon/}{Prof. Malik Magdon-Ismail}, and \href{http://www.cs.rpi.edu/~hollingd}{Prof. Dave Hollinger}. \\
+Theory research; developed novel algorithm to find minimum spanning trees for sparse random graphs.
+\end{itemize}
+
+
+\section*{Publications}
+\subsection*{Journal Articles}
+\begin{itemize}
+\item E. S. Kim, L. D. Berkovits, E. P. Bernier, D. Leyzberg, F. Shic, R. Paul, and B. Scassellati. {\bf Social Robots as Embedded Reinforcers of Social Behavior in Children with Autism}. Journal of Autism and Developmental Disorders, 2012.
+\end{itemize}
+
+\subsection*{Conference Papers}
+\begin{itemize}
+\item D. Leyzberg, S. Spaulding, M. Toneva, and B. Scassellati. (2012). {\bf The Physical Presence of a Robot Tutor Increases Cognitive Learning Gains}. In: N. Miyake, D. Peebles, and R. P. Cooper (eds.), Proceedings of the 34th Annual Conference of the Cognitive Science Society (CogSci 2012), 1882-1887. Austin, TX: Cognitive Science Society. Sapporo, Japan, August 1-4.
+\item D. Leyzberg, E. Avrunin, J. Liu, and B. Scassellati. (2011) {\bf Robots That Express Emotion Elicit Better Human Teaching}. In Proceedings of the 6th ACM/IEEE International Conference on Human Robot Interaction (HRI '11).
+\item E. S. Kim, D. Leyzberg, K. M. Tsui, and B. Scassellati. (2009) {\bf How People Talk When Teaching a Robot}. In Proceedings of the 4th ACM/IEEE International Conference on Human Robot Interaction (HRI '09).
+\end{itemize}
+
+\section*{Talks \& Panels}
+\begin{itemize}
+	\item Panel Session on Nifty Assignments: Asteroids Arcade Game Assignment \\
+	39nd ACM Technical Symposium on Computer Science Education (SIGCSE) 2008, Portland, OR.
+\end{itemize}
+
+\section*{Industry}
+\begin{itemize}
+	\item UBS Financial Inc., Quality Assurance Internship. Summer 2005.
+\end{itemize}
+
+\section*{Professional Activities}
+
+\begin{itemize}
+\item Reviewer for:
+  \textit{Epigentic Robots 2010},
+  \textit{Human-Robot Interaction 2009, 2010, 2011, 2012, 2013, 2014}.
+\item Departmental Service: Graduate Teaching Liaison, 2009-10.
+\end{itemize}
+
+%\section*{Honors, Awards, \& Fellowships}
+%
+%\begin{itemize}
+%\item Summer Research Fellowship, Duke University, 2007, 2008.
+%\item Institute on Computational Economics Fellow, University of Chicago, 2006.
+%\item Outstanding Teaching Assistant Award, Duke University, 2006.
+%\item Undergraduate Research Award, North Carolina State University, 2004.
+%% \item Omicron Delta Epsilon, International Economics Honor Society, 2004.
+%\item Phi Beta Kappa, Zeta of North Carolina, 2003.
+%% \item Pi Mu Epsilon, National Mathematics Honor Society, 2003.
+%\item NSF Research Experiences for Undergraduates, Colorado School of Mines, 2002.
+%% \item Phi Kappa Phi, 2002.
+%% \item Golden Key International Honour Society, 2002.
+%% \item Dean's List, North Carolina State University, 2000--2004.
+%\end{itemize}
+%%
+%\section*{Conferences and Workshops Attended}
+%
+%\begin{itemize}
+%\item AEA/ASSA Annual Meetings,
+%  Denver, CO, January 6--10, 2011.
+%\item 20th Annual Meetings of the Midwest Econometrics Group,
+%  Washington University,
+%  October 1--2, 2010.
+%\item AEA/ASSA Annual Meetings,
+%  Atlanta, GA, January 3--5, 2010.
+%\item Triangle Econometrics Conference,
+%  Research Triangle Park, NC,
+%  December 4, 2009.
+%\item Cowles Foundation Conference, Applications of Structural Microeconomics,
+%  Yale University,
+%  June 24--25, 2009.
+%\item ERID Conference on Identification,
+%  Duke University,
+%  October 3--4, 2008.
+%\item North American Summer Meetings of the Econometric Society,
+%  Duke University,
+%  June 21--24, 2007.
+%\item Institute on Computational Economics,
+%  Argonne National Laboratory,
+%  July 17--21, 2006.
+%\item SIAM Conference on Applied Linear Algebra,
+%  The College of William \& Mary,
+%  July 15--19, 2003.
+%\end{itemize}
+%
+%\section*{Miscellaneous}
+%
+%\begin{itemize}
+%\item \textit{Security Clearance:} Special Sworn Status, U.S. Census Bureau.
+%\end{itemize}
+
+\medskip
+
+% Footer
+%\begin{center}
+%  \begin{small}
+%    Last updated: \today
+%  \end{small}
+%\end{center}
+
+\end{document}
